@@ -264,9 +264,9 @@ class AdvertiseData {
     var uuid: String?
     var localName: String?     //CBAdvertisementDataLocalNameKey
     
-    static let serviceUUID: String = "8ebdb2f3-7817-45c9-95c5-c5e9031aaa47"
-    static let txCharacteristicUUID: String = "08590F7E-DB05-467E-8757-72F6FAEB13D4"
-    static let rxCharacteristicUUID: String = "08590F7E-DB05-467E-8757-72F6FAEB13D5"
+    static let serviceUUID: String = "8EBDB2F0-7817-45C9-95C5-C5E9031AAA47"
+    static let txCharacteristicUUID: String = "8EBDB2F2-7817-45C9-95C5-C5E9031AAA47"
+    static let rxCharacteristicUUID: String = "8EBDB2F1-7817-45C9-95C5-C5E9031AAA47"
     
     init(uuid: String?, localName: String?) {
         self.uuid = Self.serviceUUID //uuid;

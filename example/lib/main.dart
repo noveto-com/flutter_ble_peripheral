@@ -32,8 +32,8 @@ class _FlutterBlePeripheralExampleState
     super.initState();
     setState(() {
       _data.includeDeviceName = false;
-      _data.uuid = '8ebdb2f3-7817-45c9-95c5-c5e9031aaa47';
-      _data.manufacturerId = 1234;
+      _data.uuid = '8EBDB2F0-7817-45C9-95C5-C5E9031AAA47';
+      _data.manufacturerId = 65535;
       _data.timeout = 1000;
       _data.manufacturerData = [1, 2, 3, 4, 5, 6];
       _data.txPowerLevel = AdvertisePower.ADVERTISE_TX_POWER_MEDIUM;
